@@ -1,0 +1,1 @@
+sed -i "1i Name,Website,Address,Description,Hours,Phone,Keywords,5star Profile,Logo,Facebook,Google Plus,Twitter,Yelp,BusinessType,Category" california_2017-08-27_12-40.csv

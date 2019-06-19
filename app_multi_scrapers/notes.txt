@@ -1,0 +1,8 @@
+# for g2crowd rescrape
+cat data/logs/logfile.log | grep ERROR | jq '.message' | grep "\(https.*/details\|https.*/details$\)" -o | uniq | sort
+
+# scrapers
+financeonline need manual scraping checks
+g2crowd sometimes respond 500 code to some profiles, use request without session
+salesforce2 to be run by desktop or terminal with phantomjs
+trustradius - requests rate limit is active
